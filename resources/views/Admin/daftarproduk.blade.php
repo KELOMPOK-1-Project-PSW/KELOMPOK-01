@@ -61,7 +61,7 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-          <p>Anda ingin menghapusnya?</p>
+          <p>Apakah Anda yakin ingin menghapusnya?</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>

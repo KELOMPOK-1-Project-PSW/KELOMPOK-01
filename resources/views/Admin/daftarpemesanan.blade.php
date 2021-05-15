@@ -35,10 +35,10 @@
 
                                                             <select class="form-control"  required="required" name="keterangan" aria-label="Default select example" >
                                                                 <option value="{{$orders->keterangan}}">{{$orders->keterangan}}</option>
-                                                                <option value="Verifikasi">Verifikasi</option>
-                                                                <option value="Proses">Proses</option>
-                                                                <option value="Antar">Antar</option>
-                                                                <option value="Selesai">Selesai</option>
+                                                                <option value="Verifikasi">Verify</option>
+                                                                <option value="Proses">On Process</option>
+                                                                <option value="Antar">Delivered</option>
+                                                                <option value="Selesai">Done</option>
                                                             </select>
 
                                                 </td>

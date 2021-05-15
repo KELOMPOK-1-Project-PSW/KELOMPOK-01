@@ -3,7 +3,7 @@
 
 <div class="edit">
     <div class="card">
-    <h1>Detail Customer</h1>
+    <h1>Detail Customer atau Pelanggan</h1>
         <div class="card-body">
                 <div class="mb-3 row">
                     <label class="col-sm-3 col-form-label">Nama</label>
@@ -39,10 +39,8 @@
                     </div>
                 </div>
 
-                <button type="button"  class="btn btn-primary"  onclick="window.location.href='/daftarcustomer'">Kembali</button>
+                <button type="button"  class="btn btn-primary"  onclick="window.location.href='/daftarcustomer'"><i class="fas fa-arrow-left"></i> Kembali</button>
             </form>
-
-
         </div>
     </div>
 </div>

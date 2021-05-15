@@ -29,7 +29,7 @@
                                             <td>{{$users -> name}}</td>
                                             <td>{{$users -> alamat}}</td>
                                             <td>{{$users -> no_telepon}}</td>
-                                            <td><button type="button" class="btn btn-warning" onclick="window.location.href='/detailcustomer/{{$users->user_id}}'"><i class="fas fa-info"></i> Detail</button></td>
+                                            <td><button type="button" class="btn btn-info" onclick="window.location.href='/detailcustomer/{{$users->user_id}}'"><i class="fas fa-info"></i> Detail</button></td>
                                     </tr>
                                     @endforeach
 

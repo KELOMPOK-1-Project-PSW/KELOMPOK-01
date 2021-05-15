@@ -4,7 +4,7 @@
     <div class="card">
     <h1>Detail Pemesanan </h1>
         <div class="card-body">
-    
+
             <div class="table-responsive">
                     <table class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
                         <thead>
@@ -26,9 +26,9 @@
                         @endforeach
                         </tbody>
                     </table>
-                    <button type="button"  class="btn btn-primary"  onclick="window.location.href='/daftarpemesanan'"><i class="fas fa-edit"></i> Kembali</button>
+                    <button type="button"  class="btn btn-info"  onclick="window.location.href='/daftarpemesanan'"><i class="fas fa-arrow-left"></i> Kembali</button>
                 </div>
-        
+
         </div>
     </div>
 </div>
