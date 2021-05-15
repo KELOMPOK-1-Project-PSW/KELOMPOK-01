@@ -44,7 +44,7 @@
                     <a class="scroll-link" href="/daftarproduk"><i class="fas fa-pencil-alt"></i>Daftar Produk</a>
                 </li>
                 <li>
-                    <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-shopping-basket"></i>Pemesanan</a>
+                    <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-shopping-cart"></i>Pemesanan</a>
                 </li>
                 <li>
                     <a class="scroll-link" href="/daftarcustomer"><i class="fas fa-user-friends"></i>Daftar Customer</a>
@@ -90,7 +90,7 @@
                             <h1 class="wow fadeIn"> Apotek <strong>SIPALBAB</strong> </h1>
                             <div class="description wow fadeInLeft">
                                 <h2>
-                                    
+
                                 </h2>
                             </div>
                         </div>
