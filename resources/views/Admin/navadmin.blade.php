@@ -41,7 +41,7 @@
 
             <ul class="list-unstyled menu-elements">
                 <li>
-                    <a class="scroll-link" href="/daftarproduk"><i class="fas fa-pencil-alt"></i>Daftar Produk</a>
+                    <a class="scroll-link" href="/daftarproduk"><i class="fas fa-store"></i>Daftar Produk</a>
                 </li>
                 <li>
                     <a class="scroll-link" href="/daftarpemesanan"><i class="fas fa-shopping-cart"></i>Pemesanan</a>
