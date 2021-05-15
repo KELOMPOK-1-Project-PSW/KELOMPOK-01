@@ -1,6 +1,6 @@
 @include('navbar')
 <style>
-  
+
 .form-control {
   float: right;
   padding: 6px;
@@ -49,10 +49,10 @@
               <div class="col-md-4">
                 <form class="d-flex" method="GET" action="/produk">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="cari" >
-                  <button class="btn btn-success"><i class="fas fa-search"></i></button>
+                  <button class="btn btn-primary"><i class="fas fa-search"></i></button>
                 </form>
               </div>
-            </div>     
+            </div>
           </div>
           @foreach($produk as $produks)
           <div class="col-md-4 card-produk">
@@ -66,12 +66,12 @@
 
             </div>
           </div>
-          @endforeach 
+          @endforeach
         </div>
       </div>
     </div>
         <div class="container">
-         
+
         </div>
     <div class="call-to-action">
       <div class="container">

@@ -53,7 +53,7 @@
                 </div>
 
 				<button type="button" class="btn btn-danger" onclick="window.location.href='/daftarproduk'"><i class="fas fa-times"></i> Batal</button>
-				<button type="submit" class="btn btn-success"><i class="fas fa-check"></i> Edit</button>
+				<button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Simpan</button>
             </form>
 
 

@@ -32,7 +32,7 @@
                                             <td><form action="{{route('daftarpemesanan.update',$orders->orders_id)}}" method="post" enctype="multipart/form-data">
                                                 {{ csrf_field() }}
 
-                                                      
+
                                                             <select class="form-control"  required="required" name="keterangan" aria-label="Default select example" >
                                                                 <option value="{{$orders->keterangan}}">{{$orders->keterangan}}</option>
                                                                 <option value="Verifikasi">Verifikasi</option>
@@ -40,11 +40,11 @@
                                                                 <option value="Antar">Antar</option>
                                                                 <option value="Selesai">Selesai</option>
                                                             </select>
-                                                  
+
                                                 </td>
                                             <td><img src="{{url('buktibayar/'.$orders->bukti_bayar)}}" width="80px" height="80px" alt="" data-toggle="modal" data-target="#myModal{{$orders->orders_id}}"></td>
                                             <td><button type="button" class="btn btn-warning" onclick="window.location.href='detailpemesanan/{{$orders->orders_id}}'"><i class="fas fa-info"></i> Detail</button>
-                                            <button type="submit" class="btn btn-info"><i class="fas fa-info"></i> Simpan</button>
+                                            <button type="submit" class="btn btn-info"><i class="fas fa-save"></i> Simpan Data</button>
                                             </form>
                                             </td>
 
